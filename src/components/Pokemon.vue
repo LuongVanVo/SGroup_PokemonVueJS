@@ -74,7 +74,7 @@ function searchPokemon() {
         pokemon.pokemon.name.toLowerCase().includes(inputText)
     )
     pokemonList.value = filteredPokemon;
-    showLoadMore.value = false;
+    showLoadMore.valụbue = false;
     checkSearch.value = filteredPokemon.length === 0;
   }
 }
